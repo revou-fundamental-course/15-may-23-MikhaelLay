@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
     <header>
@@ -13,30 +14,56 @@
         <span class="subtitle">Kalkulator Matematika</span> 
     </header>
     <main>
+        <br>
         <div class="card"> 
             <div class="figure">            
-                <div class="example-square">dgdhhf</div>
+                        <h1>Welcome to Katik</h1>
+                        <p id="cete">Hai Sobat, Selamat Datang di Katik :] 
+                            <br>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangunan datar</p>
+                    <div class="box"><button onclick="hidefunc1()">Luas Persegi</button></div> 
+                    <div class="box"><button onclick="hidefunc2()">Keliling Persegi</button></div> 
+                </div> 
             </div>
+        <div id="divlp">
+            <div class="box2">Luas Persegi</div>
             <div class="formula-desc"> 
                 <p>Rumus Luas Persegi yaitu:</p>
-                <p>L = S x S </p>
+                <p id="cete2">L = S x S </p>
                 <p>Dimana:</p>
                 <p>L = Luas</p>
                 <p>S = Sisi </p>
             </div>
             <form>
-            <form>
                 <h3>Hitung Luas Persegi</h3>
                 <input id="sisi-luas" name="sisi-luas" required>
-                <p class="result-luas" id="rumus-luas">L = S x S</p>
+                <div class="btnhtg"><button type="button" name="hitung-luas" onclick="hitungLuas()">Hitung</button></div>
+                <div class="btnrst"><button type="button" name="reset-luas">Reset</button></div>
+                <p class="result-luas" id="rumus-luas"></p>
                 <p class="result-luas" id="perhitungan-luas"></p>
                 <p class="result-luas" id="output-luas"></p>
-                <button name="hitung-luas" onclick="hitungLuas()">Hitung</button>
-                <button name="reset-luas">Reset</button>
             </form>
             </div>
-        </div>
-       
+<br><br>
+        <div id="divkp">
+            <div class="box2">Keliling Persegi</div>
+            <div> image</div>
+            <div class="formula-desc"> 
+                <p>Rumus Keliling Persegi yaitu:</p>
+                <p id="cete2">K = 4 x S </p>
+                <p>Dimana:</p>
+                <p>K = Keliling</p>
+                <p>S = Sisi </p>
+            </div>
+            <form>
+                <h3>Hitung Keliling Persegi</h3>
+                <input id="sisi-kel" name="sisi-kel" required>
+                <div class="btnhtg"><button type="button" name="hitung-kel" onclick="hitungKel()">Hitung</button></div>
+                <div class="btnrst"><button type="button" name="reset-kel">Reset</button></div>
+                <p class="result-kel" id="rumus-kel"></p>
+                <p class="result-kel" id="perhitungan-kel"></p>
+                <p class="result-kel" id="output-kel"></p>
+            </form>
+            </div>
     </main>
     <footer></footer>
     <script src="js/script.js"></script>

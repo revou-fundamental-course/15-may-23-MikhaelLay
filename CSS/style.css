@@ -1,3 +1,6 @@
+
+#divlp {display: block;}
+#divkp {display: block;}
 body {background: #ffe3e1;}
 header {
     background: #a4ff8d;
@@ -5,21 +8,43 @@ header {
     padding: 20px 20px; }
 .title {
     font-weight: bold;
-    color: white; }
+    color: white; 
+    font-size: large;}
 .subtitle {
     color: grey;
-    font-size: small; }
+    font-size: medium; }
+h1, h3  { text-align: center;}
+#cete {text-align: center;}
+#cete2 {text-align: center; font-weight: bold;}
 .card {
-    background: white; }
-.example-square {
-    border: 2px solid red; }
-.figure {
-    min-height: 50px;
-    display: flex;
-    justify-content: center;
-    align-content: center; }
+    background: burlywood; 
+}
+.box { background: #dbc7ff;
+    text-align: center;
+    padding: 5px 5px;
+    border: 2px solid black; 
+    margin: 2px;}
+.box2 { background: #82b8ff;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    padding: 25px 25px;
+    border: 2px solid black; 
+    margin: 2px;}  
 input {
     width: 100%;
     box-sizing: border-box;
     padding: 3px; }
-.result-luas { visibility: hidden; }
+.btnhtg {
+    text-align: center;}
+.btnrst {
+    text-align: right;
+    }
+    .result-luas { visibility: visible; }
+    .result-kel { visibility: visible; }
+#img {
+    width: 20px;
+    height: 20px;
+    border: 2px; }
+
+
