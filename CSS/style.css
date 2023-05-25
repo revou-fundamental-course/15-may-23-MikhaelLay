@@ -1,0 +1,25 @@
+body {background: #ffe3e1;}
+header {
+    background: #a4ff8d;
+    text-align: center;
+    padding: 20px 20px; }
+.title {
+    font-weight: bold;
+    color: white; }
+.subtitle {
+    color: grey;
+    font-size: small; }
+.card {
+    background: white; }
+.example-square {
+    border: 2px solid red; }
+.figure {
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center; }
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3px; }
+.result-luas { visibility: hidden; }
